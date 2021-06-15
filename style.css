@@ -6,22 +6,23 @@ body {
 
 header {
 	height: 160px;
-	background-color: #403933;
-	background-image:url(header.jpg);
+	background-color:#333340;
+	background-image: url(background.jpg); 
 }
 
 .logo {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 100px;
+  font-size: 50px;
   text-align: center;
-  letter-spacing: -3;
+  letter-spacing: -2;
   margin: 0;
   padding: 20px 0 0 0;
+  color: red;
 }
 
 header h2 {
 	font-family: 'Montserrat', serif;
-	color:black;
+	color:red;
 	margin: 0px;
 	font-size: 30px;
 	text-align: center;
@@ -42,10 +43,11 @@ section {
 
 h1, h2, h3 {
   font-family: 'Montserrat Alternates', sans-serif;
-	color:black;
+	color:  #004e61;
   text-align: center;
   font-weight: 500;
 }
+
 
 h1 { font-size: 40px; }
 h2 { font-size: 26px; }
@@ -75,7 +77,7 @@ em {
 }
 
 footer p {
-	color:black;	
+	color:  #002730;	
 	text-align: center;
   padding: 30px;
   margin: 0;
